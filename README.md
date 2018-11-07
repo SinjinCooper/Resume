@@ -1,3 +1,3 @@
-# Resume
+# Personal Site
 
-My resume in html format.
+A personal website to show my work and my interests.
