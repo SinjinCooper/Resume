@@ -1,19 +1,19 @@
-<script>
+<script type="text/javascript">
   var pushes = ["Ring Flys", "Bench Press (135)", "OHP (95)", "Dips"];
-var pulls = ["Negative Pullups", "Horizontal Rows", "Pull Ups", "Barbell Rows (95)"];
-var legses = ["Squats (135)", "Deadlift (185)", "Split Squat (95)", "Goblet Squat (45)"];
-var bicepses = ["Preacher Curls (55)", "Barbell Curls (65)", "DB Curls (25)"];
-var tricepses = ["Band Extensions", "Reverse Bench (95)", "Skull Crushers (55)"];
-var bonuses = ["KB Snatch (25)", "KB Swings (45)", "Butterfly Raises"]
+  var pulls = ["Negative Pullups", "Horizontal Rows", "Pull Ups", "Barbell Rows (95)"];
+  var legses = ["Squats (135)", "Deadlift (185)", "Split Squat (95)", "Goblet Squat (45)"];
+  var bicepses = ["Preacher Curls (55)", "Barbell Curls (65)", "DB Curls (25)"];
+  var tricepses = ["Band Extensions", "Reverse Bench (95)", "Skull Crushers (55)"];
+  var bonuses = ["KB Snatch (25)", "KB Swings (45)", "Butterfly Raises"]
 
-function randomize() {
-  document.getElementById("pushEx").innerText = pushes[Math.floor(Math.random() * pushes.length)];
-  document.getElementById("pullEx").innerText = pulls[Math.floor(Math.random() * pulls.length)];
-  document.getElementById("legsEx").innerText = legses[Math.floor(Math.random() * legses.length)];
-  document.getElementById("bicepsEx").innerText = bicepses[Math.floor(Math.random() * bicepses.length)];
-  document.getElementById("tricepsEx").innerText = tricepses[Math.floor(Math.random() * tricepses.length)];
-  document.getElementById("bonusEx").innerText = bonuses[Math.floor(Math.random() * bonuses.length)];
-}
+  function randomize() {
+    document.getElementById("pushEx").innerText = pushes[Math.floor(Math.random() * pushes.length)];
+    document.getElementById("pullEx").innerText = pulls[Math.floor(Math.random() * pulls.length)];
+    document.getElementById("legsEx").innerText = legses[Math.floor(Math.random() * legses.length)];
+    document.getElementById("bicepsEx").innerText = bicepses[Math.floor(Math.random() * bicepses.length)];
+    document.getElementById("tricepsEx").innerText = tricepses[Math.floor(Math.random() * tricepses.length)];
+    document.getElementById("bonusEx").innerText = bonuses[Math.floor(Math.random() * bonuses.length)];
+  }
 </script>
 
 <h1>Random Routine</h1>
