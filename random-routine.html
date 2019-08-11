@@ -2,25 +2,28 @@
 <head>
   <style>
     body {
-    text-align: center;
-    font-family: verdana;
-    min-width: 500px;
-  }
-  .leftColumn {
-    position: absolute;
-    right: 51%;
-    text-align: right;
-    width: 25%;
-  }
-  .rightColumn {
-    position: absolute;
-    left: 51%;
-    text-align: left;
-    width: 32%;
-  }
-  #randomize {
-    margin-top: 25px;
-  }
+      text-align: center;
+      font-family: verdana;
+      min-width: 500px;
+    }
+    .leftColumn {
+      position: absolute;
+      right: 51%;
+      text-align: right;
+      width: 25%;
+    }
+    .rightColumn {
+      position: absolute;
+      left: 51%;
+      text-align: left;
+      width: 32%;
+    }
+    .row {
+      margin-bottom: 15px;
+    }
+    #randomize {
+      margin-top: 25px;
+    }
   </style>
 
   <script type="text/javascript">
@@ -43,21 +46,32 @@
 </head>
 <body>
   <h1>Random Routine</h1>
-  <h3>A random full-body workout generator</h3>
-  <div>
-    <label class="leftColumn">Push: </label>
-    <label class="rightColumn" id="pushEx">Push: </label><br>
-
-    <label class="leftColumn">Pull: </label>
-    <label class="rightColumn" id="pullEx">Pull </label><br>
-    <label class="leftColumn">Legs: </label>
-    <label class="rightColumn" id="legsEx">Legs </label><br>
-    <label class="leftColumn">Biceps: </label>
-    <label class="rightColumn" id="bicepsEx">Biceps </label><br>
-    <label class="leftColumn">Triceps: </label>
-    <label class="rightColumn" id="tricepsEx">Triceps </label><br>
-    <label class="leftColumn">Bonus: </label>
-    <label class="rightColumn" id="bonusEx">Bonus </label><br>
+  <h5>A random full-body workout generator</h5>
+  <div id="lytList">
+    <div class="row">
+      <label class="leftColumn">Push: </label>
+      <label class="rightColumn" id="pushEx">Push: </label><br>
+    </div>
+    <div class="row">
+      <label class="leftColumn">Pull: </label>
+      <label class="rightColumn" id="pullEx">Pull </label><br>
+    </div>
+    <div class="row">
+      <label class="leftColumn">Legs: </label>
+      <label class="rightColumn" id="legsEx">Legs </label><br>
+    </div>
+    <div class="row">
+      <label class="leftColumn">Biceps: </label>
+      <label class="rightColumn" id="bicepsEx">Biceps </label><br>
+    </div>
+    <div class="row">
+      <label class="leftColumn">Triceps: </label>
+      <label class="rightColumn" id="tricepsEx">Triceps </label><br>
+    </div>
+    <div class="row">
+      <label class="leftColumn">Bonus: </label>
+      <label class="rightColumn" id="bonusEx">Bonus </label><br>
+    </div>
   </div>
 
   <div id="lytButton">
