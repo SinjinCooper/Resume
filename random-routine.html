@@ -6,7 +6,6 @@
     font-family: verdana;
     min-width: 500px;
   }
-
   .leftColumn {
     position: absolute;
     right: 51%;
@@ -19,6 +18,9 @@
     text-align: left;
     width: 32%;
   }
+  #lytButton {
+    margin-top: 20px;
+    }
   </style>
 
   <script type="text/javascript">
@@ -41,6 +43,7 @@
 </head>
 <body>
   <h1>Random Routine</h1>
+  <h3>A random full-body workout generator</h3>
   <div>
     <label class="leftColumn">Push: </label>
     <label class="rightColumn" id="pushEx">Push: </label><br>
@@ -57,7 +60,7 @@
     <label class="rightColumn" id="bonusEx">Bonus </label><br>
   </div>
 
-  <div>
+  <div id="lytButton">
     <button id="randomize" onClick="randomize()">Randomize</button>
   </div>
 </body>
