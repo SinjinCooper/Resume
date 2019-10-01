@@ -50,9 +50,40 @@
       document.getElementById("tricepsEx").innerText = tricepses[Math.floor(Math.random() * tricepses.length)];
       document.getElementById("bonusEx").innerText = bonuses[Math.floor(Math.random() * bonuses.length)];
     }
+    
+    function randomize(exercise) {
+      switch(exercise) {
+        case 1:
+          document.getElementById("pushEx").innerText = pushes[Math.floor(Math.random() * pushes.length)];
+          break;
+        case 2:
+          document.getElementById("pullEx").innerText = pushes[Math.floor(Math.random() * pulls.length)];
+          break;
+        case 3:
+          document.getElementById("legsEx").innerText = legses[Math.floor(Math.random() * legses.length)];
+          break;
+        case 4:
+          document.getElementById("bicepsEx").innerText = bicepses[Math.floor(Math.random() * bicepses.length)];
+          break;
+        case 5:
+          document.getElementById("tricepsEx").innerText = tricepses[Math.floor(Math.random() * tricepses.length)];
+          break;
+        case 6:
+          document.getElementById("bonusEx").innerText = bonuses[Math.floor(Math.random() * bonuses.length)];
+          break;
+        case 7:
+          document.getElementById("pushEx").innerText = pushes[Math.floor(Math.random() * pushes.length)];
+          document.getElementById("pullEx").innerText = pulls[Math.floor(Math.random() * pulls.length)];
+          document.getElementById("legsEx").innerText = legses[Math.floor(Math.random() * legses.length)];
+          document.getElementById("bicepsEx").innerText = bicepses[Math.floor(Math.random() * bicepses.length)];
+          document.getElementById("tricepsEx").innerText = tricepses[Math.floor(Math.random() * tricepses.length)];
+          document.getElementById("bonusEx").innerText = bonuses[Math.floor(Math.random() * bonuses.length)];
+          break;
+      }
+    }
   </script>
 </head>
-<body onLoad="randomize()">
+<body onLoad="randomize(7)">
   <!--<p><a href="index.html"><- Go Back</a></p>-->
   <h1>Random Routine</h1>
   <h5>A random full-body workout generator</h5>
@@ -60,32 +91,32 @@
   <div id="lytList">
     <div class="row">
       <label class="leftColumn">Push: </label>
-      <label class="rightColumn" id="pushEx">Push: </label><br>
+      <label class="rightColumn" id="pushEx" onClick="randomize(1)">Push: </label><br>
     </div>
     <div class="row">
       <label class="leftColumn">Pull: </label>
-      <label class="rightColumn" id="pullEx">Pull </label><br>
+      <label class="rightColumn" id="pullEx" onClick="randomize(2)">Pull </label><br>
     </div>
     <div class="row">
       <label class="leftColumn">Legs: </label>
-      <label class="rightColumn" id="legsEx">Legs </label><br>
+      <label class="rightColumn" id="legsEx" onClick="randomize(3)">Legs </label><br>
     </div>
     <div class="row">
       <label class="leftColumn">Biceps: </label>
-      <label class="rightColumn" id="bicepsEx">Biceps </label><br>
+      <label class="rightColumn" id="bicepsEx" onClick="randomize(4)">Biceps </label><br>
     </div>
     <div class="row">
       <label class="leftColumn">Triceps: </label>
-      <label class="rightColumn" id="tricepsEx">Triceps </label><br>
+      <label class="rightColumn" id="tricepsEx" onClick="randomize(5)">Triceps </label><br>
     </div>
     <div class="row">
       <label class="leftColumn">Bonus: </label>
-      <label class="rightColumn" id="bonusEx">Bonus </label><br>
+      <label class="rightColumn" id="bonusEx" onClick="randomize(6)">Bonus </label><br>
     </div>
   </div>
 
   <div id="lytButton">
-    <button id="randomize" onClick="randomize()">Randomize</button>
+    <button id="randomize" onClick="randomize(7)">Randomize</button>
   </div>
 </body>
 </html>
