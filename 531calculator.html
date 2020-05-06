@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      text-align: center;
+      font-family: verdana;
+      min-width: 75%;
+    }
+    @viewport {
+      width: device-width ;
+      zoom: 1.0 ;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function calc() {
+      var max = document.getElementById("max").value;
+      var n = parseInt(max) * .9;
+  
+      document.getElementById("w1").innerText = "\t" +(n * .65).toFixed(0) + "\t" + (n * .75).toFixed(0) + "\t" + (n * .85).toFixed(0);
+      document.getElementById("w2").innerText = "\t" +(n * .7).toFixed(0) + "\t" + (n * .8).toFixed(0) + "\t" + (n * .9).toFixed(0);
+      document.getElementById("w3").innerText ="\t" + (n * .75).toFixed(0) + "\t" + (n * .85).toFixed(0) + "\t" + (n * .95).toFixed(0);
+      document.getElementById("w4").innerText ="\t" + (n * .64).toFixed(0) + "\t" + (n * .4).toFixed(0) + "\t" + (n * .6).toFixed(0);
+    }
+  </script>
+</head>
+<body>
+  <h1>5/3/1 Calculator</h1>
+  <p id="description">easily create your 5/3/1 program</p>
+
+  <div>
+    <label>Input your max:</label>
+    <input type="text" id="max">
+    <button type="button" onclick="calc()">Calculate</button>
+  </div>
+
+  <div>
+    <label>5 reps for each weight: </label>
+    <label id="w1"></label>
+  </div>
+  <div>
+    <label>3 reps for each weight: </label>
+    <label id="w2"></label>
+  </div>
+  <div>
+    <label>5,3,1 reps respectively: </label>
+    <label id="w3"></label>
+  </div>
+  <div>
+    <label>5 reps for each weight:</label>
+    <label id="w4"></label>
+  </div>
+</body>
+</html>
