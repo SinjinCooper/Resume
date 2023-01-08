@@ -2,6 +2,9 @@
   font-family: too-digital;
   src: url('digital-7.regular.ttf')
 }
+#display {
+  font-family: too-digital
+}
 
 h3 {
   color: #701A90;
