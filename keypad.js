@@ -1,7 +1,7 @@
 
 const keypad_display = ["-", "-", "-", "-"]
 
-document.getElementById("display").innerHTML = keypad_display;
+document.getElementById("display").innerHTML = keypad_display.join("");
 
 function onPress(btn_num) {
   keypad_display.pop(btn_num);
