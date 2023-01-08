@@ -1,3 +1,8 @@
+@font-face {
+  font-family: too-digital;
+  src: url('digital-7.regular.ttf')
+}
+
 h3 {
   color: #701A90;
 }
