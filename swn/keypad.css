@@ -10,7 +10,7 @@
     display: flex;
   }
   .codeDisplay {
-    font-family: mydigitalfont;
+    font-family: 'mydigitalfont';
     display: flex;
     border: 1px solid black;
     flex: 25%;
