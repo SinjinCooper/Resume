@@ -1,0 +1,44 @@
+#display {
+    font-family: verdana;
+    border: 1px solid black;
+    height: 75px;
+    display: flex;
+  }
+  .codeDisplay {
+    display: flex;
+    border: 1px solid black;
+    flex: 25%;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    background-color: black;
+    font-size: 30px
+  }
+  
+  button {
+    font-size: 75px
+  }
+  button:active {
+    background-color: #222;
+    transform: translateY(1px);
+  }
+  .keypad {
+    display: block;
+    margin: auto;
+    width: 300px;
+  }
+  .btn {
+    display: block;
+    height: 34px;
+  }
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 97px;
+  }
+  
