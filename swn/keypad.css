@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'mydigitalfont';
+  src: url('digital-7.regular.ttf') format('truetype');
+}
+
 #display {
     font-family: verdana;
     border: 1px solid black;
@@ -5,6 +10,7 @@
     display: flex;
   }
   .codeDisplay {
+    font-family: mydigitalfont;
     display: flex;
     border: 1px solid black;
     flex: 25%;
