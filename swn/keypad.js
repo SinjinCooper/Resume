@@ -13,7 +13,7 @@ function checkCode(arr) {
   if (arr[0] == "-") {
     return;
   }
-  if (arr == [5,5,5,5].toString()) {
+  if (arr == [7, '/', 1, 1].toString()) {
     success();
   } else {
     failure();
