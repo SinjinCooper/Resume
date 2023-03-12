@@ -1,16 +1,17 @@
+body {
+    background-color: #000000;
+}
 
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
+  color: #32CD32;
+  background-color: #000000;
   width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #32CD32;
   text-align: left;
   padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
 }
