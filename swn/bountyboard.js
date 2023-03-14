@@ -15,14 +15,14 @@ var bounties_list = [
 ]
 
 
-var table = document.getElementById("myTable");
+var table = document.getElementById("bounty_table");
 
-for (let i = 0; i < bounties.length; i++) {
+for (let i = 0; i < bounties_list.length; i++) {
     var row = table.insertRow();
-    var cell0 = row.insertCell(0).innerHTML = bounties[i][0];
-    var cell1 = row.insertCell(1).innerHTML = bounties[i][1];
-    var cell2 = row.insertCell(2).innerHTML = bounties[i][2];
-    var cell3 = row.insertCell(3).innerHTML = bounties[i][3];
+    var cell0 = row.insertCell(0).innerHTML = bounties_list[i][0];
+    var cell1 = row.insertCell(1).innerHTML = bounties_list[i][1];
+    var cell2 = row.insertCell(2).innerHTML = bounties_list[i][2];
+    var cell3 = row.insertCell(3).innerHTML = bounties_list[i][3];
   }
 
 // Create custom pop up window with target details.
