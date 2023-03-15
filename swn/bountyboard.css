@@ -1,4 +1,4 @@
-body, h2 {
+body, h2, .header{
     background-color: #000000;
     color: #32CD32;
     text-align: center;
@@ -17,8 +17,8 @@ td {
   padding: 8px;
 }
 
-.header {
-  text-align: center;
+.note {
+    text-align: left;
 }
 
 #details_popup {  
