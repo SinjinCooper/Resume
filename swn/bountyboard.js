@@ -3,15 +3,17 @@ var a = "Eeek is wanted for various war crimes commited against the IDGAF. Serve
 
 
 // dynamically create table from bounties list
-//  -Target-  -Location-  -Reward-  -Requesting Party-
+//  -Target-  -Location-  -Reward-  -Requesting Party-  -Crime-  -Wanted-
 var bounties_list = [
-    ["Eeek", "MELGOR", "150,000 cr.", "I.D.G.A.F."],
-    ["Robert Olmstead", "MOKRI", "10,000 cr", "OLMSTEAD ESTATE"],
-    ["Woogledoo", "POOLEMIT", "20,000 cr.", "I.D.G.A.F."],
-    ["Torik Veld", "PIDWAAG", "12,500 cr.", "UNITED AEROSPACE DISTRIBUTORS"],
-    ["Mr. John", "SVABODNAYA", "10,000 cr.", "ZEYRU CORP."],
-    ["Giovanni Giorgio", "MORODER", "9,060 cr.", "PAFT DUNK"],
-    ["Moby Duke", "MOKRI", "8,000 cr.", "CAPTAIN REHAB"]
+    ["Eeek", "MELGOR", "150,000 cr. A / 50,000 cr. D", "I.D.G.A.F.", "Various War Crimes", "ALIVE/DEAD",
+        "Eeek, the War General for the Jin'opian Empire, is wanted for multiple war crimes committed against" +
+        "the IDGAF amongst the outer rim planets. His last known whereabouts are "],
+    ["Robert Olmstead", "MOKRI", "10,000 cr. A", "OLMSTEAD ESTATE", "ALIVE", "Desc"],
+    ["Woogledoo", "POOLEMIT", "20,000 cr. A / 15,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD", "Desc"],
+    ["Torik Veld", "PIDWAAG", "12,500 cr. A / 6,000 cr. D", "UNITED AEROSPACE DISTRIBUTORS", "ALIVE/DEAD", "Desc"],
+    ["Mr. John", "SVABODNAYA", "10,000 cr. D", "ZEYRU CORP.", "DEAD", "Deasc"],
+    ["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE", "Desc"],
+    ["Moby Duke", "MOKRI", "8,000 cr. D", "CAPTAIN REHAB", "DEAD", "Desc"]
 ]
 
 for (let i = 0; i < bounties_list.length; i++) {
@@ -27,7 +29,10 @@ for (let i = 0; i < bounties_list.length; i++) {
 // Create custom pop up window with target details.
 function showDetails(bounty) {
     document.getElementById("name").innerHTML = bounty[0];
-    document.getElementById("crime").innerHTML = bounty[1];  
+    document.getElementById("crime").innerHTML = bounty[1];
+    document.getElementById("reward").innerHTML = bounty[2];
+    document.getElementById("wanted").innerHTML = bounty[4];  
+    document.getElementById("descr").innerHTML = bounty[5];  
     
     var stats =  document.getElementById("details_popup").style.display;
   
