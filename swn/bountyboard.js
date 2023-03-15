@@ -1,14 +1,13 @@
 
-var a = "Eeek is wanted for various war crimes commited against the IDGAF. Serves the Jin'opian Empire, last seen on Melgor.";
-
+var a = `Eeek, the War General for the Jin'opian Empire, is wanted for multiple war crimes committed
+agains the IDGAF amongst the outer rim planets. His last known whereabouts are the Planet
+Melgor in the`;
 
 // dynamically create table from bounties list
 //  -Target-  -Location-  -Reward-  -Requesting Party-  -Crime-  -Descr-
 var bounties_list = [
     ["Eeek", "MELGOR", "150,000 cr. A / 50,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD",
-        `Eeek, the War General for the Jin'opian Empire, is wanted for multiple war crimes committed
-        agains the IDGAF amongst the outer rim planets. His last known whereabouts are the Planet
-        Melgor in the`],
+        "test"],
     ["Robert Olmstead", "MOKRI", "10,000 cr. A", "OLMSTEAD ESTATE", "ALIVE", "Desc"],
     ["Woogledoo", "POOLEMIT", "20,000 cr. A / 15,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD", "Desc"],
     ["Torik Veld", "PIDWAAG", "12,500 cr. A / 6,000 cr. D", "UNITED AEROSPACE DISTRIBUTORS", "ALIVE/DEAD", "Desc"],
