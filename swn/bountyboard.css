@@ -11,7 +11,7 @@ table {
   width: 100%;
 }
 
-td, th {
+td {
   border: 1px solid #32CD32;
   text-align: left;
   padding: 8px;
@@ -22,7 +22,6 @@ td, th {
 }
 
 #details_popup {  
-    font-weight: bold;
     position:fixed;
     left:0;
     right:0;
@@ -35,7 +34,5 @@ td, th {
     height: 50%;
     padding: 15px;  
     background: black;
-    text-align: center;
-    box-sizing: content-box;
     border: 1px solid #32CD32;
   }
