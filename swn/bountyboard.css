@@ -1,6 +1,7 @@
 body, h2 {
     background-color: #000000;
     color: #32CD32;
+    text-align: center;
 }
 
 table {
@@ -19,3 +20,22 @@ td, th {
 .header {
   text-align: center;
 }
+
+#details_popup {  
+    font-weight: bold;
+    position:fixed;
+    left:0;
+    right:0;
+    margin: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 50%;
+    height: 50%;
+    padding: 15px;  
+    background: black;
+    text-align: center;
+    box-sizing: content-box;
+    border: 1px solid #32CD32;
+  }
