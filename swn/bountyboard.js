@@ -18,13 +18,15 @@ var bounties_list = [
         stealin' me goods! Oi'll pay ye well for me ayght chahrms bahck, with a little extrae for
         tee gobshite rabbut's heed. Aijajiyjajiy!`],
     ["Torik Veld", "CORGUS NEN", "12,500 cr. A / 6,000 cr. D", "HORIZON SKY TECHNOLOGIES", "ALIVE/DEAD",
-        `desc`],
+        `Religious zealot of the 'Icarians.' Wanted for trespassing, vandalism, and destruction of
+        property. Currently hiding on Corgus Nen, precautions advised.`],
     ["Mr. John", "SVABODNAYA", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
         `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
-        to alien organizations who are enemies to humanity. Do not attempt to get close!`],
-    ["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE",
-        `His name is Giovanni Giorgio, but everyone just calls him Giorgio.`],
-    ["Moby Duke", "MOKRI", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
+        to alien organizations who are enemies to humanity. Do not attempt to get close!
+        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`],
+    //["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE",
+    //    `His name is Giovanni Giorgio, but everyone just calls him Giorgio.`],
+    ["Moby Duke", "DAGON", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
         `Ai be lookin' for a steady crew to help me hunt daoon the demon what took me leg and almost
         took me life!`]
 ];
