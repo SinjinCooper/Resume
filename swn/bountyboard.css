@@ -1,7 +1,7 @@
 body, h2, .header{
-    background-color: #000000;
-    color: #32CD32;
-    text-align: center;
+  background-color: #000000;
+  color: #32CD32;
+  text-align: center;
 }
 
 table {
@@ -32,22 +32,22 @@ p {
   padding-left: 30px;
 }
 
-#note {
-    text-align: left;
+.note {
+  text-align: left;
 }
 
 #details_popup {  
-    position:fixed;
-    left:0;
-    right:0;
-    margin: auto;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 50%;
-    height: 50%;
-    padding: 15px;  
-    background: black;
-    border: 1px solid #32CD32;
-  }
+  position:fixed;
+  left:0;
+  right:0;
+  margin: auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50%;
+  height: 50%;
+  padding: 15px;  
+  background: black;
+  border: 1px solid #32CD32;
+}
