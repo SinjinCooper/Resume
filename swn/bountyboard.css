@@ -17,6 +17,21 @@ td {
   padding: 8px;
 }
 
+p {
+  margin: 0px;
+}
+
+.label {
+  font-size: 10px;
+  color: gray;
+  padding: 2px;
+}
+
+.value {
+  color: lightblue;
+  padding-left: 30px;
+}
+
 #note {
     text-align: left;
 }

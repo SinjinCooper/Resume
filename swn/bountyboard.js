@@ -46,7 +46,7 @@ function showDetails(bounty) {
     document.getElementById("name").innerHTML = bounty[0];
     document.getElementById("location").innerHTML = bounty[1];
     document.getElementById("reward").innerHTML = bounty[2];
-    document.getElementById("wanted_status").innerHTML = bounty[4];  
+    document.getElementById("want_cond").innerHTML = bounty[4];
     document.getElementById("descr").innerHTML = bounty[5];
     
     var stats =  document.getElementById("details_popup").style.display;
