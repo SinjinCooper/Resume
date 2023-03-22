@@ -29,7 +29,7 @@ var bounties_list = [
     ["Moby Duke", "TERRA NUEVA", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
         `Ai be lookin' for a steady crew to help me hunt daoon the demon what took me leg and almost
         took me life! The bastard be on Dagon, but I be settin' sail from the Grand Massage Spaceport
-        on Terra Nueva `]
+        on Terra Nueva. If ye have a stout heart and keen mind, come find me at Dock 402.`]
 ];
 
 for (let i = 0; i < bounties_list.length; i++) {
