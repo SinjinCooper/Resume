@@ -26,9 +26,10 @@ var bounties_list = [
         \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`],
     //["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE",
     //    `His name is Giovanni Giorgio, but everyone just calls him Giorgio.`],
-    ["Moby Duke", "DAGON", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
+    ["Moby Duke", "TERRA NUEVA", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
         `Ai be lookin' for a steady crew to help me hunt daoon the demon what took me leg and almost
-        took me life!`]
+        took me life! The bastard be on Dagon, but I be settin' sail from the Grand Massage Spaceport
+        on Terra Nueva `]
 ];
 
 for (let i = 0; i < bounties_list.length; i++) {
