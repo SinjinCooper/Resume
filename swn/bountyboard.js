@@ -23,13 +23,13 @@ var bounties_list = [
     ["Mr. John", "SVABODNAYA", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
         `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
         to alien organizations who are enemies to humanity. Do not attempt to get close!
-        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`],
+        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`]
     //["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE",
     //    `His name is Giovanni Giorgio, but everyone just calls him Giorgio.`],
-    ["Moby Duke", "TERRA NUEVA", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
-        `Ai be lookin' for a steady crew to help me hunt daoon the demon what took me leg and almost
-        took me life! The bastard be on Dagon, but I be settin' sail from the Grand Massage Spaceport
-        on Terra Nueva. If ye have a stout heart and keen mind, come find me at Dock 402.`]
+    // ["Moby Duke", "TERRA NUEVA", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
+    //     `Ai be lookin' for a steady crew to help me hunt daoon the demon what took me leg and almost
+    //     took me life! The bastard be on Dagon, but I be settin' sail from the Grand Massage Spaceport
+    //     on Terra Nueva. If ye have a stout heart and keen mind, come find me at Dock 402.`]
 ];
 
 for (let i = 0; i < bounties_list.length; i++) {

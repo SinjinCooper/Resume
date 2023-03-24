@@ -17,6 +17,10 @@ td {
   padding: 8px;
 }
 
+#bounty_table tr:hover {
+  color: white;
+}
+
 p {
   margin: 0px;
 }
