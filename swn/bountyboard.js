@@ -23,7 +23,11 @@ var bounties_list = [
     ["Mr. John", "SVABODNAYA", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
         `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
         to alien organizations who are enemies to humanity. Do not attempt to get close!
-        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`]
+        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`],
+    ["Unknown Trio", "Unknown", "30,000 cr. A / 15,000 cr. D", "H.H.F.F.C.", "ALIVE/DEAD",
+        `Unnamed threesome wanted for murder, theft, and destruction of the planet Dagon, 
+        Cerulian System. Considered armed and extremely dangerous.`]
+    //["The Flux Capacitor", "planet", "10,000 cr.", "Mr. Fusion", "INTACT", "boop bee doop"]
     //["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE",
     //    `His name is Giovanni Giorgio, but everyone just calls him Giorgio.`],
     // ["Moby Duke", "TERRA NUEVA", "8,000 cr. D", "CAPTAIN REHAB", "DEAD",
