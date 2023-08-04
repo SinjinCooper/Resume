@@ -1,7 +1,7 @@
 import './style.css'
-import * as bod from './body';
-import * as th from './node_modules/three';
-import {OrbitControls} from './node_modules/three/examples/jsm/controls/OrbitControls'
+import * as bod from 'body.js';
+import * as th from 'node_modules/three';
+import {OrbitControls} from 'node_modules/three/examples/jsm/controls/OrbitControls.js'
 
 const scene = new th.Scene();
 const camera = new th.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
