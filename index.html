@@ -5,15 +5,70 @@
     <!-- <base href="./"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpha Sector</title>
-    <script type="module" crossorigin src="/assets/index-0c3ddc37.js"></script>
-    <link rel="stylesheet" href="/assets/index-5ef1a6c6.css">
+    <script type="module" crossorigin src="/assets/index-fcc59fbd.js"></script>
+    <link rel="stylesheet" href="/assets/index-0bf5f4e1.css">
   </head>
   <body>
     <canvas id="bg"></canvas>
     <div id="buttonDiv">
       <button id="resetBtn">Reset View</button>
       <button id="findTeamBtn">Find Team</button>
+      <button id="showBB">Bounty Board</button>
     </div>
+    <dialog id="bountyboard">
+      <h3>BOUNTY BOARD</h3>
+        <table id="bounty_table">
+            <tr>
+                <td class="header">TARGET </th>
+                <td class="header">LOCATION</th>
+                <td class="header">REWARD</th>
+                <td class="header">REQUESTING PARTY</th>
+            </tr>
+        </table>
+    
+        <div id="details_popup" style="display:none">
+            <table>
+                <tr>
+                    <td id="img" rowspan="4">image</td>
+                    <td>
+                        <p class="label">TARGET NAME:</p>
+                        <p class="value" id="name"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="label">LAST KNOWN LOCATION:</p>
+                        <p class="value" id="location"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="label">REWARD:</p>
+                        <p class="value" id="reward"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="label">REWARD:</p>
+                        <p class="value" id="want_cond"></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="note" id="descr">description</p>
+        </div>
+    
+        <br>
+        <p class="note">*All bounties are verified by the Interstellar Requisitions Commission.
+            For further information on current bounties please visit the IRC Headquarters on Terra Nueva.
+        </p>
+        <script src="bountyboard.js"></script>
+      <button id="closeBB">Close</button>
+    </dialog>
+    <dialog id="systemData">
+        <h2 id="systemName"></h2>
+        <table id="planetsTable"></table>
+        <button id="closeInfo">Close</button>
+    </dialog>
     
   </body>
 </html>
