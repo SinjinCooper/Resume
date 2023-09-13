@@ -1,27 +1,27 @@
 // dynamically create table from bounties list
-//  -Target-  -Location-  -Reward-  -Requesting Party-  -Crime-  -Descr-
+//  -Target-  -Location-  -Reward-  -Requesting Party-  -Crime-  -Descr-  -Image-
 var bounties_list = [
     ["Eeek", "MELGOR", "150,000 cr. A / 50,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD",
         `War General for the Jin'opian Empire. Wanted for multiple war crimes committed
         against the IDGAF among the outer rim planets. Last known whereabouts are the Planet
-        Melgor in the Supaago System.`],
+        Melgor in the Supaago System.`, "possible_Eeek.jpg"],
     ["Woogledoo", "POOLEMIT", "20,000 cr. A / 15,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD",
         `Dangerous Octoid. Wanted for maiming, mutilation, and dismemberment. Believed to be hiding
-        on Poolemit, an obscure planet of unknown atmospheric classification. Caution is highly advised.`],
+        on Poolemit, an obscure planet of unknown atmospheric classification. Caution is highly advised.`, ""],
     ["Me Lucky Charms", "MARS 2", "17,300 cr.", "LUCKY THE LEPRECHAUN", "INTACT",
         `Help! Oi cahn't foind me lahcky chahrms! Oi balieve it's taht dryshite Trix Rabbut be
         stealin' me goods! Oi'll pay ye well for me ayght chahrms bahck, with a little extrae for
-        tee gobshite rabbut's heed. Aijajiyjajiy!`],
+        tee gobshite rabbut's heed. Aijajiyjajiy!`, ""],
     ["Torik Veld", "CORGUS NEN", "12,500 cr. A / 6,000 cr. D", "HORIZON SKY TECHNOLOGIES", "ALIVE/DEAD",
         `Religious zealot of the 'Icarians.' Wanted for trespassing, vandalism, and destruction of
-        property. Currently hiding on Corgus Nen, precautions advised.`],
+        property. Currently hiding on Corgus Nen, precautions advised.`, ""],
     ["Mr. John", "SVABODNAYA", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
         `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
         to alien organizations who are enemies to humanity. Do not attempt to get close!
-        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`],
+        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`, "redeye_scientist.jpg"],
     ["Unknown Trio", "Unknown", "30,000 cr. A / 15,000 cr. D", "HappyHappy Fish Food Corp.", "ALIVE/DEAD",
         `Unnamed threesome wanted for murder, theft, and destruction of the planet Dagon, 
-        Cerulian System. Considered armed and extremely dangerous.`]
+        Cerulian System. Considered armed and extremely dangerous.`, ""]
         
     //["The Flux Capacitor", "planet", "10,000 cr.", "Mr. Fusion", "INTACT", "boop bee doop"]
     //["Giovanni Giorgio", "MORODER", "9,060 cr. A", "PAFT DUNK", "ALIVE",
@@ -52,6 +52,7 @@ for (let i = 0; i < bounties_list.length; i++) {
 
 // Create custom pop up window with target details.
 function showDetails(bounty) {
+    document.getElementById("target_img").src = bounty[6]
     document.getElementById("name").innerHTML = bounty[0];
     document.getElementById("location").innerHTML = bounty[1];
     document.getElementById("reward").innerHTML = bounty[2];
