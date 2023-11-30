@@ -2,12 +2,127 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <base href="./">
+    <!-- <base href="./"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpha Sector</title>
   </head>
   <body>
     <canvas id="bg"></canvas>
+    <div id="buttonDiv">
+      <button id="resetBtn">Reset View</button>
+      <button id="findTeamBtn">Find Team</button>
+      <button id="showBB">Bounty Board</button>
+    </div>
+    
+        <div id="info_sidebar">
+            <h4>Systems & Planets</h4>
+            <ul>
+                <li class="sysName" id="liSolar">Solar System</li>
+                <li class="sysName" id="liPrimaRelava">Prima Relava System</li>
+                <ul>
+                    <li>NH-19</li>
+                    <li>Octurious</li>
+                </ul>
+                <li class="sysName" id="liFrontier">Frontier System</li>
+                <ul>
+                    <li>Terra Nueva</li>
+                </ul>
+                <li class="sysName" id="liSera">S'Era System</li>
+                <ul>
+                    <li>Kwiki Town</li>
+                    <li>HiDNoW</li>
+                    <li>Mars 2</li>
+                </ul>
+                <li class="sysName" id="liZvezda">Zvezda Slaviy System</li>
+                <ul>
+                    <li>Svabodnaya</li>
+                    <li>Friendly Foe</li>
+                </ul>
+                <li class="sysName" id="liXinXian">Xin Xian System</li>
+                <ul>
+                    <li>Chris</li>
+                </ul>
+                <li class="sysName" id="liCerulium">Cerulium System</li>
+                <ul>
+                    <li>Felon</li>
+                    <li>Diron</li>
+                    <li>Gixon</li>
+                    <li>Dagon</li>
+                    <li>Shuron</li>
+                </ul>
+                <li class="sysName" id="liZhistaan">Zhistaan System</li>
+                <ul>
+                    <li>Poolemit</li>
+                    <li>Corgus Nen</li>
+                </ul>
+                <li class="sysName" id="liJinOpian">Jin'Opian System</li>
+                <ul>
+                    <li>Melgor</li>
+                </ul>
+                <li class="sysName" id="liCygnus">Cygnus System</li>
+                <ul>
+                    <li>Veil Nebula</li>
+                </ul>
+            </ul>
+        </div>
+    
+    <dialog id="bountyboard">
+      <h3>BOUNTY BOARD</h3>
+        <table id="bounty_table">
+            <tr>
+                <td class="header">TARGET </th>
+                <td class="header">LOCATION</th>
+                <td class="header">REWARD</th>
+                <td class="header">REQUESTING PARTY</th>
+            </tr>
+        </table>
+    
+        <div id="details_popup" style="display:none">
+            <table>
+                <tr>
+                    <td rowspan="4">
+                        <img id="target_img">
+                    </td>
+                    <td>
+                        <p class="label">TARGET NAME:</p>
+                        <p class="value" id="name"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="label">LAST KNOWN LOCATION:</p>
+                        <p class="value" id="location"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="label">REWARD:</p>
+                        <p class="value" id="reward"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="label">REWARD:</p>
+                        <p class="value" id="want_cond"></p>
+                    </td>
+                </tr>
+            </table>
+            <p class="note" id="descr">description</p>
+            <button id="closeBBDetails">Close</button>
+        </div>
+    
+        <br>
+        <p class="note">*All bounties are verified by the Interstellar Requisitions Commission.
+            For further information on current bounties please visit the IRC Headquarters on Terra Nueva.
+        </p>
+        <script src="bountyboard.js"></script>
+      <button id="closeBB">Close</button>
+    </dialog>
+    <dialog id="systemData">
+        <h2 id="systemName"></h2>
+        <table id="planetsTable"></table>
+        <button id="closeInfo">Close</button>
+    </dialog>
     <script type="module" src="main.js"></script>
   </body>
 </html>

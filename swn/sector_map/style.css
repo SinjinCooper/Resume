@@ -3,3 +3,115 @@ canvas {
   top: 0;
   left: 0;
 }
+
+#buttonDiv {
+  z-index: 99;
+  position: absolute;
+}
+button {
+  color: black;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 4px;
+  width: 100px;
+}
+dialog {
+  background-color: black;
+  color: white;
+}
+
+body, h3, .header, .bountyboard {
+  background-color: #000000;
+  color: #32CD32;
+  text-align: center;
+}
+
+#bounty_table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: #000000;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #32CD32;
+  text-align: left;
+  padding: 8px;
+}
+
+#bounty_table tr:hover {
+  color: aqua;
+}
+
+p #descr {
+  margin-top: 10px;
+}
+
+.label {
+  font-size: 10px;
+  color: gray;
+  padding: 2px;
+}
+
+.value {
+  color: lightblue;
+  padding-left: 30px;
+}
+
+ul, li {
+  color: white;
+  
+  list-style-type: none;
+}
+
+#info_sidebar {
+  padding-top: 20px;
+  margin: 0;
+  left: 0px;
+  text-align: left;
+  position: absolute;
+  z-index: 98;
+}
+
+.sysName {
+  color: lime;
+  padding-top: 10px;;
+}
+
+.sysName:hover {
+  color: lightcoral;
+}
+
+.note {
+  text-align: left;
+}
+
+#planetsTable {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#target_img {
+  width: 300px;
+  height: 300px;
+}
+
+#details_popup {  
+  position:fixed;
+  left:0;
+  right:0;
+  margin: auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50%;
+  height: 75%;
+  padding: 15px;  
+  background: black;
+  border: 1px solid #32CD32;
+}
+
+#systemData {
+  margin-left: 0;
+}

@@ -22,10 +22,10 @@ export class Body {
 
 // Class to create entire systems
 export class StarSystem {
-    constructor(name, size, planets, x, y, z, face, faceColor) {
+    constructor(name, size, numPlanets, x, y, z, face, faceColor) {
         this.name = name;
         this.size = size;
-        this.planets = planets;
+        this.numPlanets = numPlanets;
         this.posX = x;
         this.posY = y;
         this.posZ = z;
@@ -39,24 +39,11 @@ export class StarSystem {
         }
 
         // Make Planet Meshes
-        // if (numPlanets != 0) {
-        //     for (let i = 1; i <= numPlanets; i++) {
-        //         // figure out planet size later
-        //         const planetSize = th.MathUtils.randFloat(0.1, .25)
-        //         const planetDistance = th.MathUtils.randFloatSpread(5);
-        //         const planet = new Body('Planet1', planetSize, (i+1) *1.25, 0, face, faceColor)
-        //         this.planetsMesh[i] = new th.Group();
-        //         this.planetsMesh[i].add(planet.mesh);
-        //         this.planetsMesh[i].position.set(x,y,z)
-        //     }
-        // }
-
-        if (this.planets.length > 0) {
-            for (let i = 0; i <= planets.length; i++) {
+        if (numPlanets != 0) {
+            for (let i = 1; i <= numPlanets; i++) {
                 // figure out planet size later
-                const planetSize = th.MathUtils.randFloat(0.1, .25)
-                const planetDistance = th.MathUtils.randFloatSpread(5);
-                const planet = new Body(planets[i], planetSize, (i+ (size/1.5)) * 1.25, 0, face, faceColor)
+                const planetSize = th.MathUtils.randFloat(0.25, 1)
+                const planet = new Body('Planet1', planetSize, i*5, 0, face, faceColor)
                 this.planetsMesh[i] = new th.Group();
                 this.planetsMesh[i].add(planet.mesh);
                 this.planetsMesh[i].position.set(x,y,z)
@@ -64,3 +51,23 @@ export class StarSystem {
         }
     }
 }
+
+
+// export default class Planet {
+//   constructor(radius, positionX, textureFile) {
+//     this.radius = radius;
+//     this.positionX = positionX;
+//     this.textureFile = textureFile;
+//   }
+
+//   getMesh() {
+//     if (this.mesh === undefined || this.mesh === null) {
+//       const geometry = new THREE.SphereGeometry(this.radius);
+//       const texture = new THREE.TextureLoader().load(this.textureFile);
+//       const material = new THREE.MeshBasicMaterial({ map: texture });
+//       this.mesh = new THREE.Mesh(geometry, material);
+//       this.mesh.position.x += this.positionX;
+//     }
+//     return this.mesh;
+//   }
+// }
