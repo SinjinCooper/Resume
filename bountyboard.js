@@ -7,31 +7,31 @@ var bounties_list = [
         against the IDGAF among the outer rim planets. Last known whereabouts are the Planet
         Melgor in the Supaago System.`,
         "possible_Eeek.jpg"],
-    // ["Woogledoo", "POOLEMIT - Zhistaan System", "20,000 cr. A / 15,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD",
-    //     `Dangerous Octoid. Wanted for maiming, mutilation, and dismemberment. Believed to be hiding
-    //     on Poolemit, an obscure planet of unknown atmospheric classification. Caution is highly advised.`,
-    //     "woogledoo.jpg"],
-    // ["Me Lucky Charms", "MARS 2 - S\'Era System", "17,300 cr.", "LUCKY THE LEPRECHAUN", "INTACT",
-    //     `Help! Oi cahn't foind me lahcky chahrms! Oi balieve it's taht dryshite Trix Rabbut be
-    //     stealin' me goods! Oi'll pay ye well for me ayght chahrms bahck, with a little extrae for
-    //     tee gobshite rabbut's heed. Aijajiyjajiy!`,
-    //     "rabbit_suit.jpg"],
-    // ["Torik Veld", "CORGUS NEN - Zhistaan System", "12,500 cr. A / 6,000 cr. D", "HORIZON SKY TECHNOLOGIES", "ALIVE/DEAD",
-    //     `Religious zealot of the 'Icarians.' Wanted for trespassing, vandalism, and destruction of
-    //     property. Currently hiding on Corgus Nen, precautions advised.`,
-    //     "torik_veld.jpg"],
-    // ["Mr. John", "SVABODNAYA - Zvezda Slaviy System", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
-    //     `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
-    //     to alien organizations who are enemies to humanity. Do not attempt to get close!
-    //     \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`,
-    //     "redeye_scientist.jpg"],
-    // ["Unknown Trio", "Unknown", "30,000 cr. A / 15,000 cr. D", "HappyHappy Fish Food Corp.", "ALIVE/DEAD",
-    //     `Unnamed threesome wanted for murder, theft, and destruction of the planet Dagon, 
-    //     Cerulian System. Considered armed and extremely dangerous.`,
-    //     "those_who_purge.jpg"],
-    // ["My H", "Friendly Fire", "15,000 cr.", "Mistor Fusion", "INTACT",
-    //     "Please help! I've lost my H! It is a critical component in the finalization of my flux capacitor.",
-    //     "my_h.jpg"]
+    ["Woogledoo", "POOLEMIT - Zhistaan System", "20,000 cr. A / 15,000 cr. D", "I.D.G.A.F.", "ALIVE/DEAD",
+        `Dangerous Octoid. Wanted for maiming, mutilation, and dismemberment. Believed to be hiding
+        on Poolemit, an obscure planet of unknown atmospheric classification. Caution is highly advised.`,
+        "woogledoo.jpg"],
+    ["Me Lucky Charms", "MARS 2 - S\'Era System", "17,300 cr.", "LUCKY THE LEPRECHAUN", "INTACT",
+        `Help! Oi cahn't foind me lahcky chahrms! Oi balieve it's taht dryshite Trix Rabbut be
+        stealin' me goods! Oi'll pay ye well for me ayght chahrms bahck, with a little extrae for
+        tee gobshite rabbut's heed. Aijajiyjajiy!`,
+        "rabbit_suit.jpg"],
+    ["Torik Veld", "CORGUS NEN - Zhistaan System", "12,500 cr. A / 6,000 cr. D", "HORIZON SKY TECHNOLOGIES", "ALIVE/DEAD",
+        `Religious zealot of the 'Icarians.' Wanted for trespassing, vandalism, and destruction of
+        property. Currently hiding on Corgus Nen, precautions advised.`,
+        "torik_veld.jpg"],
+    ["Mr. John", "SVABODNAYA - Zvezda Slaviy System", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
+        `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
+        to alien organizations who are enemies to humanity. Do not attempt to get close!
+        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`,
+        "redeye_scientist.jpg"],
+    ["Unknown Trio", "Unknown", "30,000 cr. A / 15,000 cr. D", "HappyHappy Fish Food Corp.", "ALIVE/DEAD",
+        `Unnamed threesome wanted for murder, theft, and destruction of the planet Dagon, 
+        Cerulian System. Considered armed and extremely dangerous.`,
+        "those_who_purge.jpg"],
+    ["My H", "Friendly Fire", "15,000 cr.", "Mistor Fusion", "INTACT",
+        "Please help! I've lost my H! It is a critical component in the finalization of my flux capacitor.",
+        "my_h.jpg"]
     
     
     //["Name", "Location", "Reward", "RequestParty", "Status", "Descr"],
