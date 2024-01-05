@@ -20,16 +20,16 @@ var bounties_list = [
         `Religious zealot of the 'Icarians.' Wanted for trespassing, vandalism, and destruction of
         property. Currently hiding on Corgus Nen, precautions advised.`,
         "torik_veld.jpg"],
-    ["Mr. John", "SVABODNAYA - Zvezda Slaviy System", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
-        `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
-        to alien organizations who are enemies to humanity. Do not attempt to get close!
-        \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`,
-        "redeye_scientist.jpg"],
+    // ["Mr. John", "SVABODNAYA - Zvezda Slaviy System", "10,000 cr. D", "ZEYRU CORP.", "DEAD",
+    //     `Extremely dangerous. Recommended to kill on sight. Wanted for leaking sensitive information
+    //     to alien organizations who are enemies to humanity. Do not attempt to get close!
+    //     \nReport to Zeyru Corp. headquarters on Terra Nueva for details.`,
+    //     "redeye_scientist.jpg"],
     ["Unknown Trio", "Unknown", "30,000 cr. A / 15,000 cr. D", "HappyHappy Fish Food Corp.", "ALIVE/DEAD",
         `Unnamed threesome wanted for murder, theft, and destruction of the planet Dagon, 
         Cerulian System. Considered armed and extremely dangerous.`,
         "those_who_purge.jpg"],
-    ["My H", "Friendly Fire", "15,000 cr.", "Mistor Fusion", "INTACT",
+    ["My H", "SVABODNAYA - Friendly Fire", "15,000 cr.", "Mistor Fusion", "INTACT",
         "Please help! I've lost my H! It is a critical component in the finalization of my flux capacitor.",
         "my_h.jpg"]
     
