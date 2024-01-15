@@ -1,4 +1,4 @@
-// THIS IS THE FILE TO UPDATE. THIS ONE HERE.
+
 
 //  -Target-  -Location-  -Reward-  -Requesting Party-  -Crime-  -Descr-  -Image-
 var bounties_list = [
@@ -28,7 +28,7 @@ var bounties_list = [
     ["Unknown Trio", "Unknown", "30,000 cr. A / 15,000 cr. D", "HappyHappy Fish Food Corp.", "ALIVE/DEAD",
         `Unnamed threesome wanted for murder, theft, and destruction of the planet Dagon, 
         Cerulian System. Considered armed and extremely dangerous.`,
-        "those_who_purge.jpg"],
+        "trio2.png"],
     ["My H", "SVABODNAYA - Friendly Fire", "15,000 cr.", "Mistor Fusion", "INTACT",
         "Please help! I've lost my H! It is a critical component in the finalization of my flux capacitor.",
         "my_h.jpg"]
